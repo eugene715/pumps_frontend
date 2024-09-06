@@ -160,6 +160,7 @@ span {
 .card-small {
     background: rgba(255,255,255,0.08);
     border-radius: 20px;
+    position: relative;
 }
 
 .img1-back {
@@ -208,6 +209,8 @@ span {
     justify-content: center;
     align-items: center;
     border-radius: 1000px;
+    top: -45px;
+    right: -45px;
 }
 
 .scale {
