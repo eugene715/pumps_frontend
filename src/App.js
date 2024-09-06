@@ -223,61 +223,60 @@ function App() {
         </div>
         <div style={{paddingTop:'112px'}}>
           <h1 className='text-center'>Safeguards and Mechanisms</h1>
-          <div className='d-flex gap-10 justify-content-center row'>
-            <div className='moon-border d-flex align-items-center justify-content-center col-md-4'>
+          <div className='d-flex gap-5 flex-wrap justify-content-center'>
+            <div className='moon-border d-flex align-items-center justify-content-center'>
               <span className='width-351px text-center'>Multi-Signature Wallets: Require multiple committee members to approve significant transactions, ensuring no single person has undue control.</span>
             </div>
-            <div className='moon-border d-flex align-items-center justify-content-center col-md-4'>
+            <div className='moon-border d-flex align-items-center justify-content-center'>
               <span className='width-351px text-center'>Transparency Milestones: Set clear milestones for increasing transparency, such as public reporting of decisions and financial audits.</span>
             </div>
-            <div className='moon-border d-flex align-items-center justify-content-center col-md-4'>
+            <div className='moon-border d-flex align-items-center justify-content-center'>
               <span className='width-351px text-center'>Feedback Mechanisms: Establish regular channels for community feedback and incorporate it into decision-making processes.</span>
             </div>
           </div>
-          <div className='d-flex justify-content-center m-4 row'>
-            <div className='moon-border d-flex align-items-center justify-content-center m-4 col-md-4'>
+          <div className='d-flex flex-wrap gap-5 mt-5 justify-content-center'>
+            <div className='moon-border d-flex align-items-center justify-content-center'>
               <span className='width-351px text-center'>Proposal Thresholds: Define thresholds for proposal submission and approval, ensuring only well-supported initiatives move forward.</span>
             </div>
-            <div className='col-md-1'/> 
-            <div className='moon-border d-flex align-items-center justify-content-center m-4 col-md-4'>
+            <div className='moon-border d-flex align-items-center justify-content-center'>
               <span className='width-351px text-center'>Accountability Measures: Implement penalties or corrective actions for committee members who fail to perform or act against the community’s interests.</span>
             </div>
           </div>
         </div>
         <div className='row'>
+          <h1>Tokenomics</h1>
           <div className='col-md-8 card-pt-98'>
-            <h1>Tokenomics</h1>
-            <div className='row'>
-              <h3 className='color-primary col-6'>Name:</h3>
-              <h3 className='col-6'>Pumps Go To The Gym</h3>
+            <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+              <h3 className='flex-1 color-primary'>Name:</h3>
+              <h3 className='flex-1 '>Pumps Go To The Gym</h3>
             </div>
-            <div className='row'>
-              <h3 className='color-primary col-6'>ERC-20 Ticker:</h3>
-              <h3 className='col-6'>$Pumps</h3>
+            <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+              <h3 className='flex-1 color-primary '>ERC-20 Ticker:</h3>
+              <h3 className='flex-1 '>$Pumps</h3>
             </div>
-            <div className='row'>
-              <h3 className='color-primary col-6'>BTC Runes Ticker:</h3>
-              <h3 className='col-6'>$Pumps*Go*To*The*Gym</h3>
+            <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+              <h3 className='flex-1 color-primary '>BTC Runes Ticker:</h3>
+              <h3 className='flex-1 '>$Pumps*Go*To*The*Gym</h3>
             </div>
-            <div className='row'>
-              <h3 className='color-primary col-6'>Total Tokens:</h3>
-              <h3 className='col-6'>100,000,000</h3>
+            <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+              <h3 className='flex-1 color-primary '>Total Tokens:</h3>
+              <h3 className='flex-1 '>100,000,000</h3>
             </div>
-            <div className='row'>
-              <h3 className='color-primary col-6'>ERC20 Launch Date:</h3>
-              <h3 className='col-6'>April 1, 2024</h3>
+            <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+              <h3 className='flex-1 color-primary '>ERC20 Launch Date:</h3>
+              <h3 className='flex-1 '>April 1, 2024</h3>
             </div>
-            <div className='row'>
-              <h3 className='color-primary col-6'>BTC Runes Launch Date:</h3>
-              <h3 className='col-6'>February 1, 2025</h3>
+            <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+              <h3 className='flex-1 color-primary '>BTC Runes Launch Date:</h3>
+              <h3 className='flex-1 '>February 1, 2025</h3>
             </div>
-            <div className='row'>
-              <h3 className='color-primary col-6'>Listing Date:</h3>
-              <h3 className='col-6'>October 1, 2024</h3>
+            <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+              <h3 className='flex-1 color-primary '>Listing Date:</h3>
+              <h3 className='flex-1 '>October 1, 2024</h3>
             </div>
-            <div className='row'>
-              <h3 className='color-primary col-6'>Powered By:</h3>
-              <h3 className='col-6'>RunesBridge Airdrop Guild</h3>
+            <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+              <h3 className='flex-1 color-primary '>Powered By:</h3>
+              <h3 className='flex-1 '>RunesBridge Airdrop Guild</h3>
             </div>
           </div>
           <div className='col-md-4'>
@@ -294,39 +293,39 @@ function App() {
             <div className='pr-5'>
               <h3 className='color-primary'>ERC20 Initial Airdrop Distribution:</h3>
               <div className='px-5'>
-                <div className='row'>
-                  <h3 className='color-primary col-6'>Percentage:</h3>
-                  <h3 className='col-6'>24% (24,000,000 $Pumps)</h3>
+                <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+                  <h3 className='flex-1 color-primary'>Percentage:</h3>
+                  <h3 className='flex-1'>24% (24,000,000 $Pumps)</h3>
                 </div>
-                <div className='row'>
-                  <h3 className='color-primary col-6'>Recipients:</h3>
-                  <h3 className='col-6'>3,300 RAG Wallets (Join RAG)</h3>
+                <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+                  <h3 className='flex-1 color-primary'>Recipients:</h3>
+                  <h3 className='flex-1'>3,300 RAG Wallets (Join RAG)</h3>
                 </div>
               </div>
             </div>
             <div>
               <h3 className='color-primary'>ERC20 Second Airdrop Distribution:</h3>
               <div className='px-5'>
-                <div className='row'>
-                  <h3 className='color-primary col-6'>Percentage:</h3>
-                  <h3 className='col-6'>26% (26,000,000 $Pumps)</h3>
+                <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+                  <h3 className='flex-1 color-primary'>Percentage:</h3>
+                  <h3 className='flex-1'>26% (26,000,000 $Pumps)</h3>
                 </div>
-                <div className='row'>
-                  <h3 className='color-primary col-6'>Recipients:</h3>
-                  <h3 className='col-6'>10,000+ RAG Wallets (Join RAG)</h3>
+                <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+                  <h3 className='flex-1 color-primary'>Recipients:</h3>
+                  <h3 className='flex-1'>10,000+ RAG Wallets (Join RAG)</h3>
                 </div>
               </div>
             </div>
             <div>
               <h3 className='color-primary'>BTC Runes Third Airdrop Distribution:</h3>
               <div className='px-5'>
-                <div className='row'>
-                  <h3 className='color-primary col-6'>Percentage:</h3>
-                  <h3 className='col-6'>34% (34,000,000 $Pumps)</h3>
+                <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+                  <h3 className='flex-1 color-primary'>Percentage:</h3>
+                  <h3 className='flex-1'>34% (34,000,000 $Pumps)</h3>
                 </div>
-                <div className='row'>
-                  <h3 className='color-primary col-6'>Recipients:</h3>
-                  <h3 className='col-6'>30,000+ RAG Wallets (Join RAG)</h3>
+                <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
+                  <h3 className='flex-1 color-primary'>Recipients:</h3>
+                  <h3 className='flex-1'>30,000+ RAG Wallets (Join RAG)</h3>
                 </div>
               </div>
             </div>
