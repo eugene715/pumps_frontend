@@ -21,9 +21,9 @@ const Header = () => {
                     <Nav.Link className="menu-item" href="#link">Governance</Nav.Link>
                     <Nav.Link className="menu-item" href="#link">Tokenomics</Nav.Link>
                 </Nav>
-                <div className='px-5'>
-                    <Image className='mx-2' src="./telegram.svg" width={43}/>
-                    <Image className='mx-2' src="./twitter.png" width={43}/>
+                <div className='px-5 d-flex justify-content-center gap-5'>
+                    <Image className='mx-2 cursor-pointer' src="./telegram.svg" width={43}/>
+                    <Image className='mx-2 cursor-pointer' src="./twitter.png" width={43}/>
                 </div>
                 </Navbar.Collapse>
             </Container>

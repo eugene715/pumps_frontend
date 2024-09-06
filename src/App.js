@@ -14,7 +14,7 @@ function App() {
         </div>
         <div className='poweredby'>Powered By <span>Runesbridge</span></div>
         <p className='production'>A V-Guy Production</p>
-        <div>
+        <div style={{marginBottom: "-45px"}}>
           <Button className='btn-contract'>Contract Address</Button>
         </div>
       </div>
@@ -134,7 +134,7 @@ function App() {
           <img src = "./coin2.png"></img>
         </div>
         <div className='card-pt-98'>
-          <h1 className='phase'>PAHSE 1</h1>
+          <h1 className='phase' style={{marginLeft: '6%'}}>PHASE 1</h1>
           <div className=' d-flex justify-content-center phase-card'>
             <div className='card p-5'>
               <h1 className='text-center pt-5'>Initial Formation</h1>
@@ -158,7 +158,7 @@ function App() {
           </div>
         </div>
         <div className='card-pt-98'>
-          <h1 className='phase'>PAHSE 2</h1>
+          <h1 className='phase' style={{marginLeft: '12%'}}>PHASE 2</h1>
           <div className=' d-flex justify-content-center phase-card'>
             <div className='card p-5'>
               <h1 className='text-center pt-5'>Transition to Transparency</h1>
@@ -179,7 +179,7 @@ function App() {
           </div>
         </div>
         <div className='card-pt-98'>
-          <h1 className='phase'>PAHSE 3</h1>
+          <h1 className='phase' style={{marginLeft: '18%'}}>PHASE 3</h1>
           <div className=' d-flex justify-content-center phase-card'>
             <div className='card p-5'>
               <h1 className='text-center pt-5'>Full Transparency and Strict Governance</h1>
@@ -201,7 +201,7 @@ function App() {
           </div>
         </div>
         <div className='card-pt-98'>
-          <h1 className='phase'>PAHSE 4</h1>
+          <h1 className='phase' style={{marginLeft: '24%'}}>PHASE 4</h1>
           <div className=' d-flex justify-content-center phase-card'>
             <div className='card p-5'>
               <h1 className='text-center pt-5'>Staking and Reward System</h1>
@@ -243,9 +243,10 @@ function App() {
             </div>
           </div>
         </div>
+        
+        <h1 className=' card-pt-98'>Tokenomics</h1>
         <div className='row'>
-          <h1>Tokenomics</h1>
-          <div className='col-md-8 card-pt-98'>
+            <div className='col-md-8'>
             <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
               <h3 className='flex-1 color-primary'>Name:</h3>
               <h3 className='flex-1 '>Pumps Go To The Gym</h3>
@@ -333,7 +334,7 @@ function App() {
         </div>
       </Container>
       <Container>
-        <div className='card mt-5'>
+        <div className='card mt-5' style={{backgroundColor: 'rgba(32,31,28,0.77) !important;'}}>
           <h1 className='text-center mt-5'>Frequently Asked Questions</h1>
           <Accordion bg="dark" data-bs-theme="dark" defaultActiveKey="0" className='m-5'>
             <Accordion.Item eventKey="0">
@@ -342,43 +343,45 @@ function App() {
                 Because $Pumps Go To The Gym
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1">
+            <Accordion.Item eventKey="1" className='mt-2'>
               <Accordion.Header>How can I improve my life ?</Accordion.Header>
               <Accordion.Body>
                 
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="2">
+            <Accordion.Item eventKey="2" className='mt-2'>
               <Accordion.Header>If you are experiencing awkwardness discussing crypto with your loved ones ?</Accordion.Header>
               <Accordion.Body>
                 
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="3">
+            <Accordion.Item eventKey="3" className='mt-2'>
               <Accordion.Header>If you are experiencing stress?</Accordion.Header>
               <Accordion.Body>
                 
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="4">
+            <Accordion.Item eventKey="4" className='mt-2'>
               <Accordion.Header>If you are tired ? Perhaps because your Neighbor’s tree is dropping leafs and causing you to spend your day cleaning up leafs, putting them in garbages bags and hauling them to the road. If this causes stress or tiredness.</Accordion.Header>
               <Accordion.Body>
                 
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="5">
+            <Accordion.Item eventKey="5" className='mt-2'>
               <Accordion.Header>Don’t feel comfortable speaking with “that side of the family” because of politics ?</Accordion.Header>
               <Accordion.Body>
                 
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="6">
-              <Accordion.Header>Do you have to be in shape to like pumps go to the gym ?Do you have to be in shape to like pumps go to the gym ?</Accordion.Header>
+            <Accordion.Item eventKey="6" className='mt-2'>
+              <Accordion.Header>
+                Do you have to be in shape to like pumps go to the gym ?Do you have to be in shape to like pumps go to the gym ?
+              </Accordion.Header>
               <Accordion.Body>
                 
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="7">
+            <Accordion.Item eventKey="7" className='mt-2'>
               <Accordion.Header>So there was this guy named Dave, right?</Accordion.Header>
               <Accordion.Body>
                 

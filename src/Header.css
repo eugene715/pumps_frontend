@@ -29,6 +29,14 @@
     width: 142px;
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
     .logo-width {
         width: 56px;
