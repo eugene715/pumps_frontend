@@ -244,9 +244,9 @@ function App() {
           </div>
         </div>
         
-        <h1 className=' card-pt-98'>Tokenomics</h1>
         <div className='row'>
-            <div className='col-md-8'>
+          <div className='col-md-8'>
+            <h1 className='col-md-8 card-pt-98'>Tokenomics</h1>
             <div className='d-lg-flex d-block flex-wrap gap-2 mt-3 w-full justify-content-center flex-wrap'>
               <h3 className='flex-1 color-primary'>Name:</h3>
               <h3 className='flex-1 '>Pumps Go To The Gym</h3>
